@@ -3,4 +3,8 @@
   (lib (name Connectors_DSub)(type KiCad)(uri C:/Users/schmieder/Projekte/Connectors_DSub.pretty)(options "")(descr ""))
   (lib (name Potentiometer_SMD)(type KiCad)(uri "$(KIPRJMOD)/lib/Potentiometer_SMD.pretty")(options "")(descr ""))
   (lib (name pizero)(type KiCad)(uri "$(KIPRJMOD)/lib/pizero.pretty")(options "")(descr ""))
+  (lib (name MMDVM_logo)(type KiCad)(uri "$(KIPRJMOD)/lib/MMDVM_logo.pretty")(options "")(descr ""))
+  (lib (name jumper)(type KiCad)(uri "$(KIPRJMOD)/lib/jumper.pretty")(options "")(descr ""))
+  (lib (name Jumper)(type KiCad)(uri "$(KIPRJMOD)/lib/Jumper.pretty")(options "")(descr ""))
+  (lib (name w_logo)(type KiCad)(uri "$(KIPRJMOD)/lib/w_logo.pretty")(options "")(descr ""))
 )

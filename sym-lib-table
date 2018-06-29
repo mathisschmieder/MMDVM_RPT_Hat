@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name MMDVM_Hat-rescue)(type Legacy)(uri ${KIPRJMOD}/MMDVM_Hat-rescue.lib)(options "")(descr ""))
 )

@@ -1,0 +1,2646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/opt/MMDVM-F7-Hat/MMDVM_Hat.sch</source>
+    <date>Fri 29 Jun 2018 10:10:18 PM CEST</date>
+    <tool>Eeschema 5.0.0-rc2-unknown-dd436b6~65~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MMDVM-F7-Hat</title>
+        <company>DB9MAT, DF2ET</company>
+        <rev>0.1</rev>
+        <date>2018-06-29</date>
+        <source>MMDVM_Hat.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="F0DEI Design"/>
+        <comment number="4" value="MMDVM_Hat with integrated STM32F7"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Filter/" tstamps="/5BCD4A8F/">
+      <title_block>
+        <title>MMDVM_Hat</title>
+        <company>DB9MAT</company>
+        <rev>0.1</rev>
+        <date>2018-06-15</date>
+        <source>Filter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="F0DEI Design"/>
+        <comment number="4" value="MMDVM_Hat with integrated STM32F7"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Raspberry_Pi_2_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/181/M20-783-1133465.pdf</datasheet>
+      <fields>
+        <field name="MFR">Harwin</field>
+        <field name="MPN">M20-7832046</field>
+        <field name="SPN">855-M20-7832046</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Raspberry_Pi_2_3-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B236CB9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/thj-776995.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">THJA106K006AJN</field>
+        <field name="SPN">581-THJA106K006AJN</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2374B7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B237544</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117S33TR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/389/ld1117-974075.pdf</datasheet>
+      <fields>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MPN">LD1117S33TR</field>
+        <field name="SPN">511-LD1117S33</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LD1117S33TR_SOT223-regul" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B237FFF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B238785</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/thj-776995.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">THJA106K006AJN</field>
+        <field name="SPN">581-THJA106K006AJN</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B238BBC</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10u</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/281/o05e-522697.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQM18FN100M00D</field>
+        <field name="SPN">81-LQM18FN100M00D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="L_Core_Ferrite_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B239116</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C106M7PACTU</field>
+        <field name="SPN">80-C0603C106M7P</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B239610</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>STM32F722RETx</value>
+      <footprint>Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00330506.pdf</datasheet>
+      <fields>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MPN">STM32F722RET6</field>
+        <field name="SPN">511-STM32F722RET6</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="STM32F722RETx-MCU_ST_STM32F7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B248128</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B24A2E2</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R61C475KAAJD</field>
+        <field name="SPN">81-GRM188R61C475KAJD</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B24F686</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>600R, 500mA</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Ferrite_Bead_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B252E3C</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B25423C</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R61C475KAAJD</field>
+        <field name="SPN">81-GRM188R61C475KAJD</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2543DB</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B25F57F</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R61C475KAAJD</field>
+        <field name="SPN">81-GRM188R61C475KAJD</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B25F586</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R61C475KAAJD</field>
+        <field name="SPN">81-GRM188R61C475KAJD</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B27D316</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1004V</field>
+        <field name="SPN">667-ERJ-3EKF1004V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2BA920</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8 MHz</value>
+      <footprint>Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/3/abm3-47699.pdf</datasheet>
+      <fields>
+        <field name="MFR">ABRACON</field>
+        <field name="MPN">ABM3-8.000MHz-D2Y-T</field>
+        <field name="SPN">815-ABM3-8-D2Y-T</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Crystal_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2BAA18</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>20p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1003_C0G_SMD-1101588.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C200K4GACTU</field>
+        <field name="SPN">80-C0603C200K4G</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2C2936</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>20p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1003_C0G_SMD-1101588.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C200K4GACTU</field>
+        <field name="SPN">80-C0603C200K4G</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2C29B1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PWR</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SGC-32861.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SGC</field>
+        <field name="SPN">604-APT1608SGC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2EA396</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SVC</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SURCK-41133.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SURCK</field>
+        <field name="SPN">604-APT1608SURCK</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2EA4C1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2F3C6F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2F8AF1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/id_fixed-resistors_e_2-1111101.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-PB3B1002V</field>
+        <field name="SPN">667-ERJ-PB3B1002V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3DB785</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3E8D5D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/id_fixed-resistors_e_2-1111101.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-PB3B1002V</field>
+        <field name="SPN">667-ERJ-PB3B1002V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B434B3F</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>TCXO</value>
+      <footprint>lib:FOX-924B</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/160/fox924-18323.pdf</datasheet>
+      <fields>
+        <field name="MFR">Fox</field>
+        <field name="MPN">FOX924B-12</field>
+        <field name="SPN">559-FOX924B-12</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="ASV-xxxMHz-Oscillators" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B50465D</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B50BA83</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5531CC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R61C475KAAJD</field>
+        <field name="SPN">81-GRM188R61C475KAJD</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5532B1</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>GS2</value>
+      <footprint>Connectors:GS2</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="GS2-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B59B6CB</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4702V</field>
+        <field name="SPN">667-ERJ-3EKF4702V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B59B862</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4701V</field>
+        <field name="SPN">667-ERJ-3EKF4701V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B59B97D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5BEF70</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3296Y</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/296-776415.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns</field>
+        <field name="MPN">3296Y-1-104LF</field>
+        <field name="SPN">652-3296Y-1-104LF</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D1DAA</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5F89B8</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML2060</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/196/irlml2060pbf-1228502.pdf</datasheet>
+      <fields>
+        <field name="MFR">Infineon Technologies</field>
+        <field name="MPN">IRLML2060TRPBF</field>
+        <field name="SPN">942-IRLML2060TRPBF</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Q_NMOS_GSD-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B620C09</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C471K4RACTU</field>
+        <field name="SPN">80-C0603C471K4R</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B62B0A5</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C334-1314047.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-U03F3300V</field>
+        <field name="SPN">667-ERJ-U03F3300V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B63573C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4702V</field>
+        <field name="SPN">667-ERJ-3EKF4702V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B635831</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="MFR">ON Semiconductor / Fairchild</field>
+        <field name="MPN">2N7002</field>
+        <field name="SPN">512-2N7002</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Q_NMOS_GSD-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B68D501</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4702V</field>
+        <field name="SPN">667-ERJ-3EKF4702V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6AFD5F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C471K4RACTU</field>
+        <field name="SPN">80-C0603C471K4R</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6AFDF0</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1004V</field>
+        <field name="SPN">667-ERJ-3EKF1004V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6BBC79</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C334-1314047.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-U03F3300V</field>
+        <field name="SPN">667-ERJ-U03F3300V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6C7FB2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>COS</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SYC-56824.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SYC</field>
+        <field name="SPN">604-APT1608SYC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B720886</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PTT</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SURCK-41133.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SURCK</field>
+        <field name="SPN">604-APT1608SURCK</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7209C4</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>NXDN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608VBC-D-246010.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608VBC/D</field>
+        <field name="SPN">604-APT1608VBC/D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B720A83</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>P25</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SURCK-41133.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SURCK</field>
+        <field name="SPN">604-APT1608SURCK</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B720B45</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>YSF</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SECK-6197.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SECK</field>
+        <field name="SPN">604-APT1608SECK</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B720C0A</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>DMR</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SYC-56824.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SYC</field>
+        <field name="SPN">604-APT1608SYC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B720CD0</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>DSTAR</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608SGC-32861.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608SGC</field>
+        <field name="SPN">604-APT1608SGC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B720D9B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B781827</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7818C3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B781951</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7819E3</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B781A71</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B781B05</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B781B9D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Radio</value>
+      <footprint>Connectors_DSub:DSUB-9_Male_Horizontal_Pitch2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/418/NG_CD_1734354_A1-1242970.pdf</datasheet>
+      <fields>
+        <field name="MFR">TE Connectivity / AMP</field>
+        <field name="MPN">1734354-1</field>
+        <field name="SPN">571-1734354-1</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="DB9_Female_MountingHoles-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9AB44F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Radio</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/6130xx11121-538006.pdf</datasheet>
+      <fields>
+        <field name="MFR">Wurth Electronics</field>
+        <field name="MPN">61300711121</field>
+        <field name="SPN">710-61300711121</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Conn_01x07-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA985D4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Serial Display</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/6130xx11121-538006.pdf</datasheet>
+      <fields>
+        <field name="MFR">Wurth Electronics</field>
+        <field name="MPN">61300411121</field>
+        <field name="SPN">710-61300411121</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Conn_01x04-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB9233F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>STLink</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/6130xx11121-538006.pdf</datasheet>
+      <fields>
+        <field name="MFR">Wurth Electronics</field>
+        <field name="MPN">61300411121</field>
+        <field name="SPN">710-61300411121</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Conn_01x04-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB9242B</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>POCSAG</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/216/APT1608VBC-D-246010.pdf</datasheet>
+      <fields>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APT1608VBC/D</field>
+        <field name="SPN">604-APT1608VBC/D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B446FD0</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1501V</field>
+        <field name="SPN">667-ERJ-3EKF1501V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B44706E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Panel LEDs</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/1/78-5100-2653-3-1131492.pdf</datasheet>
+      <fields>
+        <field name="MFR">3M Electronic Solutions Division</field>
+        <field name="MPN">951210-8622-AR</field>
+        <field name="SPN">517-951210-8622-AR</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="Conn_02x10_Odd_Even-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9764E6</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>10k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
+      <datasheet>https://www.mouser.de/bourns-trimpot-trimming-potentiometers</datasheet>
+      <fields>
+        <field name="MFR">Bourns</field>
+        <field name="MPN">3314G-1-103E</field>
+        <field name="SPN">652-3314G-1-103E</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD4E2B</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1001V</field>
+        <field name="SPN">667-ERJ-3EKF1001V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD4EB8</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF2002V</field>
+        <field name="SPN">667-ERJ-3EKF2002V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD4F6A</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD5068</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>47u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">F931A476KAA</field>
+        <field name="SPN">647-F931A476KAA</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD5130</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-P03F2202V</field>
+        <field name="SPN">667-ERJ-P03F2202V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD5205</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-P03F2202V</field>
+        <field name="SPN">667-ERJ-P03F2202V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD524D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C331-1141874.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-P03F2202V</field>
+        <field name="SPN">667-ERJ-P03F2202V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD5285</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>47u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">F931A476KAA</field>
+        <field name="SPN">647-F931A476KAA</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD5529</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP6002</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip Technology</field>
+        <field name="MPN">MCP6002-E/SN</field>
+        <field name="SPN">579-MCP6002-E/SN</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="MCP6002-xMS-linear" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD6263</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MCP6002</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip Technology</field>
+        <field name="MPN">MCP6002-E/SN</field>
+        <field name="SPN">579-MCP6002-E/SN</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="MCP6002-xMS-linear" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD68DE</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>100k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/214-776713.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns</field>
+        <field name="MPN">3214W-1-104E</field>
+        <field name="SPN">652-3214W-1-104E</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD7607</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>30k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF3002V</field>
+        <field name="SPN">667-ERJ-3EKF3002V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD7D3B</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>47u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">F931A476KAA</field>
+        <field name="SPN">647-F931A476KAA</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD873A</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>5k1</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF5101V</field>
+        <field name="SPN">667-ERJ-3EKF5101V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD8F1B</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C103K4RAC</field>
+        <field name="SPN">80-C0603C103K4RAC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD93D4</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4701V</field>
+        <field name="SPN">667-ERJ-3EKF4701V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCD9D1A</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4701V</field>
+        <field name="SPN">667-ERJ-3EKF4701V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCDA22F</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>39n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C393K4RACTU</field>
+        <field name="SPN">80-C0603C393K4R</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCDCD57</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCDE691</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCDF28B</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603T104K3RALTU</field>
+        <field name="SPN">80-C0603T104K3RALTU</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCDF324</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1014_X7R_FE-CAP_SMD-1102761.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603S102K4RACTU</field>
+        <field name="SPN">80-C0603S102K4R</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCE54C1</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/id_fixed-resistors_e_2-1111101.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-PB3B1002V</field>
+        <field name="SPN">667-ERJ-PB3B1002V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCF132E</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCF5161</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>5k1</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF5101V</field>
+        <field name="SPN">667-ERJ-3EKF5101V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCF7E46</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C103K4RAC</field>
+        <field name="SPN">80-C0603C103K4RAC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCF9547</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4701V</field>
+        <field name="SPN">667-ERJ-3EKF4701V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCFC66B</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1014_X7R_FE-CAP_SMD-1102761.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603S102K4RACTU</field>
+        <field name="SPN">80-C0603S102K4R</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BCFE016</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF4701V</field>
+        <field name="SPN">667-ERJ-3EKF4701V</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD014BE</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>39n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="MFR">KEMET</field>
+        <field name="MPN">C0603C393K4RACTU</field>
+        <field name="SPN">80-C0603C393K4R</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD0C5B2</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>47u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">F931A476KAA</field>
+        <field name="SPN">647-F931A476KAA</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD12DA5</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>47u</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">F931A476KAA</field>
+        <field name="SPN">647-F931A476KAA</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD12ECF</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>200k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/214-776713.pdf</datasheet>
+      <fields>
+        <field name="MFR">Bourns</field>
+        <field name="MPN">3214W-1-204E</field>
+        <field name="SPN">652-3214W-1-204E</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD19EAC</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>GS3</value>
+      <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="GS3-conn" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD241EC</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TEST</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
+      <tstamp>5BD2EFDA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MMDVM_Hat-rescue" part="ASV-xxxMHz-Oscillators">
+      <footprints>
+        <fp>Oscillator*SMD*Abracon*ASV*7.0x5.1mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ASV-xxxMHz-Oscillators</field>
+        <field name="Footprint">Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="CP_Small-device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="C_Small-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Conn_01x04-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Conn_01x07-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Conn_02x10_Odd_Even-conn">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Crystal_Small-device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="DB9_Female_MountingHoles-conn">
+      <footprints>
+        <fp>DB*F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female_MountingHoles-conn</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Ferrite_Bead_Small-device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="GS2-conn">
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS2-conn</field>
+        <field name="Footprint">Connectors:GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="GS3-conn">
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS3-conn</field>
+        <field name="Footprint">Connectors:GS3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+        <pin num="3" name="G3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="LD1117S33TR_SOT223-regul">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223-regul</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="LED_Small-device">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="L_Core_Ferrite_Small-device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Core_Ferrite_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="MCP6002-xMS-linear">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*Pitch0.65mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*Pitch0.635mm*</fp>
+        <fp>LFCSP*2x2mm*Pitch0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6002-xMS-linear</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="POT-device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Q_NMOS_GSD-device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="R-device">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="R_Small-device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="Raspberry_Pi_2_3-conn">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Raspberry_Pi_2_3-conn</field>
+        <field name="Footprint">Pin_Headers:Pin_Header_Straight_2x20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="5V" type="passive"/>
+        <pin num="3" name="(SDA1)_GPIO2" type="BiDi"/>
+        <pin num="4" name="5V" type="passive"/>
+        <pin num="5" name="(SCL1)_GPIO3" type="BiDi"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="(GCLK)_GPIO4" type="BiDi"/>
+        <pin num="8" name="(TXD0)_GPIO14" type="BiDi"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="(RXD0)_GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO17_(GEN0)" type="BiDi"/>
+        <pin num="12" name="GPIO18_(GEN1)" type="BiDi"/>
+        <pin num="13" name="GPIO27_(GEN2)" type="BiDi"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="GPIO22_(GEN3)" type="BiDi"/>
+        <pin num="16" name="GPIO23_(GEN4)" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="GPIO24_(GEN5)" type="BiDi"/>
+        <pin num="19" name="(SPI_MOSI)_GPIO10" type="BiDi"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="(SPI_MISO)_GPIO9" type="BiDi"/>
+        <pin num="22" name="GPIO25_(GEN6)" type="BiDi"/>
+        <pin num="23" name="(SPI_SCLK)_GPIO11" type="BiDi"/>
+        <pin num="24" name="(~SPI_CE0~)_GPIO8" type="BiDi"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="(~SPI_CE1~)_GPIO7" type="BiDi"/>
+        <pin num="27" name="ID_SD" type="BiDi"/>
+        <pin num="28" name="ID_SC" type="BiDi"/>
+        <pin num="29" name="GPIO5" type="BiDi"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GPIO6" type="BiDi"/>
+        <pin num="32" name="GPIO12" type="BiDi"/>
+        <pin num="33" name="GPIO13" type="BiDi"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="GPIO19" type="BiDi"/>
+        <pin num="36" name="GPIO16" type="BiDi"/>
+        <pin num="37" name="GPIO26" type="BiDi"/>
+        <pin num="38" name="GPIO20" type="BiDi"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="GPIO21" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="STM32F722RETx-MCU_ST_STM32F7">
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F722RETx-MCU_ST_STM32F7</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PH0" type="input"/>
+        <pin num="6" name="PH1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VREF+" type="power_in"/>
+        <pin num="14" name="PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PB0" type="BiDi"/>
+        <pin num="26" name="PB1" type="BiDi"/>
+        <pin num="27" name="PB2" type="BiDi"/>
+        <pin num="28" name="PB10" type="BiDi"/>
+        <pin num="29" name="PB11" type="BiDi"/>
+        <pin num="30" name="VCAP_1" type="power_in"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMDVM_Hat-rescue" part="TEST-device">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MMDVM_Hat-rescue">
+      <uri>/opt/MMDVM-F7-Hat/MMDVM_Hat-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C14-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="2" name="R_RSSI">
+      <node ref="R16" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="3" name="Net-(C16-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="4" name="RADIO_PTT">
+      <node ref="Q1" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="5" name="Net-(C15-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad38)">
+      <node ref="J2" pin="38"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C13-Pad2)">
+      <node ref="X1" pin="3"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="9" name="RADIO_TX">
+      <node ref="J5" pin="7"/>
+      <node ref="RV4" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="10" name="SVC_LED">
+      <node ref="U2" pin="33"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="11" name="COS_LED">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="12" name="PTT">
+      <node ref="R5" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="35"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="13" name="DSTAR_LED">
+      <node ref="U2" pin="36"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="14" name="RADIO_COS">
+      <node ref="R14" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="15" name="RADIO_RX">
+      <node ref="J1" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C24" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="J4" pin="12"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="J4" pin="8"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="20"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="18"/>
+      <node ref="J4" pin="16"/>
+      <node ref="J4" pin="14"/>
+      <node ref="J4" pin="10"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="34"/>
+      <node ref="J2" pin="30"/>
+      <node ref="J2" pin="25"/>
+      <node ref="J2" pin="20"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="J2" pin="9"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="39"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U2" pin="47"/>
+      <node ref="U2" pin="63"/>
+      <node ref="C10" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="31"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J1" pin="0"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="18" name="+3V3">
+      <node ref="R1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U2" pin="32"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U2" pin="64"/>
+      <node ref="R10" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="J6" pin="4"/>
+      <node ref="U2" pin="48"/>
+    </net>
+    <net code="19" name="Net-(C17-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C18-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J4" pin="19"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C20-Pad1)">
+      <node ref="L2" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="23" name="NRST">
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J2" pin="40"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="24" name="BOOT0">
+      <node ref="U2" pin="60"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="26" name="DMR_LED">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="27" name="ADC_RX">
+      <node ref="TP4" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="28" name="DAC_TX">
+      <node ref="R20" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="20"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="29" name="RSSI">
+      <node ref="RV1" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="30" name="TX">
+      <node ref="J2" pin="10"/>
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="31" name="RX">
+      <node ref="U2" pin="43"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="32" name="SWDIO">
+      <node ref="U2" pin="46"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="33" name="SWCLK">
+      <node ref="J6" pin="3"/>
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="34" name="CLOCK">
+      <node ref="U2" pin="50"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="36" name="COS">
+      <node ref="R18" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="37" name="TX_NEXTION">
+      <node ref="U2" pin="54"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="39" name="Net-(D6-Pad2)">
+      <node ref="J4" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad36)">
+      <node ref="J2" pin="36"/>
+    </net>
+    <net code="44" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="45" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad35)">
+      <node ref="J2" pin="35"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="48" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad18)">
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad22)">
+      <node ref="J2" pin="22"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad37)">
+      <node ref="J2" pin="37"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad27)">
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="54" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="55" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="57" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="58" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="59" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="60" name="Net-(J2-Pad24)">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="61" name="Net-(J2-Pad26)">
+      <node ref="J2" pin="26"/>
+    </net>
+    <net code="62" name="Net-(J2-Pad31)">
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="63" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="64" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="65" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="66" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="68" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="69" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="70" name="Net-(U2-Pad58)">
+      <node ref="U2" pin="58"/>
+    </net>
+    <net code="71" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad51)">
+      <node ref="U2" pin="51"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad52)">
+      <node ref="U2" pin="52"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="80" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="81" name="Net-(U2-Pad62)">
+      <node ref="U2" pin="62"/>
+    </net>
+    <net code="82" name="Net-(U2-Pad61)">
+      <node ref="U2" pin="61"/>
+    </net>
+    <net code="83" name="Net-(U2-Pad59)">
+      <node ref="U2" pin="59"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad57)">
+      <node ref="U2" pin="57"/>
+    </net>
+    <net code="85" name="Net-(U2-Pad56)">
+      <node ref="U2" pin="56"/>
+    </net>
+    <net code="86" name="Net-(U2-Pad55)">
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="87" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="88" name="Net-(U2-Pad45)">
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad44)">
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="90" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="91" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="92" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="93" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="94" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="95" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D3-Pad2)">
+      <node ref="J4" pin="15"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D4-Pad2)">
+      <node ref="J4" pin="13"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="98" name="YSF_LED">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="99" name="P25_LED">
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="100" name="NXDN_LED">
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="101" name="RX_NEXTION">
+      <node ref="J3" pin="3"/>
+      <node ref="U2" pin="53"/>
+    </net>
+    <net code="102" name="POCSAG_LED">
+      <node ref="R33" pin="1"/>
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="103" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J4" pin="17"/>
+    </net>
+    <net code="104" name="Net-(D10-Pad2)">
+      <node ref="J4" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="106" name="Net-(D8-Pad2)">
+      <node ref="J4" pin="9"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="107" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="108" name="+5V">
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="109" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="110" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="111" name="Net-(C32-Pad1)">
+      <node ref="R31" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="112" name="Net-(R29-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="113" name="Net-(C31-Pad1)">
+      <node ref="RV3" pin="3"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C27-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="116" name="Net-(C26-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="117" name="Net-(R21-Pad1)">
+      <node ref="RV2" pin="3"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="118" name="Net-(C26-Pad1)">
+      <node ref="R25" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="119" name="Net-(RV3-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="120" name="Net-(R29-Pad2)">
+      <node ref="RV3" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="121" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+      <node ref="RV4" pin="1"/>
+    </net>
+    <net code="122" name="Net-(C36-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="C36" pin="2"/>
+    </net>
+    <net code="123" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="124" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="125" name="Net-(C30-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="126" name="Net-(C29-Pad1)">
+      <node ref="R28" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="127" name="Net-(R26-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="128" name="Net-(C29-Pad2)">
+      <node ref="C34" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+    </net>
+  </nets>
+</export>

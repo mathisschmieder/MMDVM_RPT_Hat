@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM-F7-Hat/MMDVM_Hat.sch</source>
-    <date>Fri 29 Jun 2018 10:10:18 PM CEST</date>
+    <date>Fri 29 Jun 2018 10:32:30 PM CEST</date>
     <tool>Eeschema 5.0.0-rc2-unknown-dd436b6~65~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -200,11 +200,12 @@
     <comp ref="L2">
       <value>600R, 500mA</value>
       <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/742863160-538931.pdf</datasheet>
       <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
+        <field name="MFR">Wurth Electronics</field>
+        <field name="MPN">742863160</field>
+        <field name="SPN">710-742863160</field>
+        <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
       <libsource lib="MMDVM_Hat-rescue" part="Ferrite_Bead_Small-device" description=""/>

@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM-F7-Hat/MMDVM_Hat.sch</source>
-    <date>Fri 29 Jun 2018 10:32:30 PM CEST</date>
-    <tool>Eeschema 5.0.0-rc2-unknown-dd436b6~65~ubuntu18.04.1</tool>
+    <date>Sun 01 Jul 2018 01:16:15 AM CEST</date>
+    <tool>Eeschema 5.0.0-rc2-unknown-06ff563~65~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MMDVM-F7-Hat</title>
@@ -43,7 +43,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Raspberry_Pi_2_3-conn" description=""/>
+      <libsource lib="" part="Raspberry_Pi_2_3-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B236CB9</tstamp>
     </comp>
@@ -58,7 +58,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2374B7</tstamp>
     </comp>
@@ -73,7 +73,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B237544</tstamp>
     </comp>
@@ -88,7 +88,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LD1117S33TR_SOT223-regul" description=""/>
+      <libsource lib="" part="LD1117S33TR_SOT223-regul" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B237FFF</tstamp>
     </comp>
@@ -103,7 +103,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B238785</tstamp>
     </comp>
@@ -118,7 +118,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B238BBC</tstamp>
     </comp>
@@ -133,7 +133,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="L_Core_Ferrite_Small-device" description=""/>
+      <libsource lib="" part="L_Core_Ferrite_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B239116</tstamp>
     </comp>
@@ -148,7 +148,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B239610</tstamp>
     </comp>
@@ -163,7 +163,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="STM32F722RETx-MCU_ST_STM32F7" description=""/>
+      <libsource lib="" part="STM32F722RETx-MCU_ST_STM32F7" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B248128</tstamp>
     </comp>
@@ -178,7 +178,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B24A2E2</tstamp>
     </comp>
@@ -193,7 +193,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B24F686</tstamp>
     </comp>
@@ -208,7 +208,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Ferrite_Bead_Small-device" description=""/>
+      <libsource lib="" part="Ferrite_Bead_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B252E3C</tstamp>
     </comp>
@@ -223,7 +223,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B25423C</tstamp>
     </comp>
@@ -238,7 +238,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2543DB</tstamp>
     </comp>
@@ -253,7 +253,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B25F57F</tstamp>
     </comp>
@@ -268,7 +268,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B25F586</tstamp>
     </comp>
@@ -283,7 +283,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B27D316</tstamp>
     </comp>
@@ -298,7 +298,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R-device" description=""/>
+      <libsource lib="" part="R-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2BA920</tstamp>
     </comp>
@@ -313,7 +313,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Crystal_Small-device" description=""/>
+      <libsource lib="" part="Crystal_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2BAA18</tstamp>
     </comp>
@@ -328,7 +328,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2C2936</tstamp>
     </comp>
@@ -343,7 +343,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2C29B1</tstamp>
     </comp>
@@ -358,7 +358,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2EA396</tstamp>
     </comp>
@@ -373,7 +373,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2EA4C1</tstamp>
     </comp>
@@ -388,7 +388,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2F3C6F</tstamp>
     </comp>
@@ -403,7 +403,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B2F8AF1</tstamp>
     </comp>
@@ -418,7 +418,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3DB785</tstamp>
     </comp>
@@ -433,7 +433,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B3E8D5D</tstamp>
     </comp>
@@ -448,7 +448,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B434B3F</tstamp>
     </comp>
@@ -463,7 +463,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="ASV-xxxMHz-Oscillators" description=""/>
+      <libsource lib="" part="ASV-xxxMHz-Oscillators" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B50465D</tstamp>
     </comp>
@@ -478,7 +478,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B50BA83</tstamp>
     </comp>
@@ -493,7 +493,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5531CC</tstamp>
     </comp>
@@ -508,7 +508,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5532B1</tstamp>
     </comp>
@@ -518,7 +518,7 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="GS2-conn" description=""/>
+      <libsource lib="" part="GS2-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B59B6CB</tstamp>
     </comp>
@@ -533,7 +533,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B59B862</tstamp>
     </comp>
@@ -548,7 +548,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B59B97D</tstamp>
     </comp>
@@ -563,7 +563,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5BEF70</tstamp>
     </comp>
@@ -578,7 +578,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <libsource lib="" part="POT-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5D1DAA</tstamp>
     </comp>
@@ -588,7 +588,7 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <libsource lib="" part="TEST-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B5F89B8</tstamp>
     </comp>
@@ -603,7 +603,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Q_NMOS_GSD-device" description=""/>
+      <libsource lib="" part="Q_NMOS_GSD-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B620C09</tstamp>
     </comp>
@@ -618,7 +618,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B62B0A5</tstamp>
     </comp>
@@ -633,7 +633,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B63573C</tstamp>
     </comp>
@@ -648,7 +648,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B635831</tstamp>
     </comp>
@@ -663,7 +663,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Q_NMOS_GSD-device" description=""/>
+      <libsource lib="" part="Q_NMOS_GSD-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B68D501</tstamp>
     </comp>
@@ -678,7 +678,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6AFD5F</tstamp>
     </comp>
@@ -693,7 +693,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6AFDF0</tstamp>
     </comp>
@@ -708,7 +708,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6BBC79</tstamp>
     </comp>
@@ -723,7 +723,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6C7FB2</tstamp>
     </comp>
@@ -738,7 +738,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B720886</tstamp>
     </comp>
@@ -753,7 +753,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B7209C4</tstamp>
     </comp>
@@ -768,7 +768,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B720A83</tstamp>
     </comp>
@@ -783,7 +783,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B720B45</tstamp>
     </comp>
@@ -798,7 +798,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B720C0A</tstamp>
     </comp>
@@ -813,7 +813,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B720CD0</tstamp>
     </comp>
@@ -828,7 +828,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B720D9B</tstamp>
     </comp>
@@ -843,7 +843,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B781827</tstamp>
     </comp>
@@ -858,7 +858,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B7818C3</tstamp>
     </comp>
@@ -873,7 +873,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B781951</tstamp>
     </comp>
@@ -888,7 +888,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B7819E3</tstamp>
     </comp>
@@ -903,7 +903,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B781A71</tstamp>
     </comp>
@@ -918,7 +918,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B781B05</tstamp>
     </comp>
@@ -933,7 +933,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B781B9D</tstamp>
     </comp>
@@ -948,7 +948,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="DB9_Female_MountingHoles-conn" description=""/>
+      <libsource lib="" part="DB9_Female_MountingHoles-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9AB44F</tstamp>
     </comp>
@@ -963,7 +963,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Conn_01x07-conn" description=""/>
+      <libsource lib="" part="Conn_01x07-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BA985D4</tstamp>
     </comp>
@@ -978,7 +978,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Conn_01x04-conn" description=""/>
+      <libsource lib="" part="Conn_01x04-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB9233F</tstamp>
     </comp>
@@ -993,7 +993,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Conn_01x04-conn" description=""/>
+      <libsource lib="" part="Conn_01x04-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB9242B</tstamp>
     </comp>
@@ -1008,7 +1008,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="LED_Small-device" description=""/>
+      <libsource lib="" part="LED_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B446FD0</tstamp>
     </comp>
@@ -1023,7 +1023,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B44706E</tstamp>
     </comp>
@@ -1038,7 +1038,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="Conn_02x10_Odd_Even-conn" description=""/>
+      <libsource lib="" part="Conn_02x10_Odd_Even-conn" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B9764E6</tstamp>
     </comp>
@@ -1053,7 +1053,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <libsource lib="" part="POT-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD4E2B</tstamp>
     </comp>
@@ -1068,7 +1068,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD4EB8</tstamp>
     </comp>
@@ -1083,7 +1083,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD4F6A</tstamp>
     </comp>
@@ -1093,22 +1093,22 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <libsource lib="" part="TEST-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD5068</tstamp>
     </comp>
     <comp ref="C26">
       <value>47u</value>
-      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <footprint>Capacitors_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
       <fields>
         <field name="MFR">AVX</field>
-        <field name="MPN">F931A476KAA</field>
-        <field name="SPN">647-F931A476KAA</field>
+        <field name="MPN">F931C106KAA</field>
+        <field name="SPN">647-F931C106KAA</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD5130</tstamp>
     </comp>
@@ -1123,7 +1123,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD5205</tstamp>
     </comp>
@@ -1138,7 +1138,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD524D</tstamp>
     </comp>
@@ -1153,22 +1153,22 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD5285</tstamp>
     </comp>
     <comp ref="C27">
       <value>47u</value>
-      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <footprint>Capacitors_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
       <fields>
         <field name="MFR">AVX</field>
-        <field name="MPN">F931A476KAA</field>
-        <field name="SPN">647-F931A476KAA</field>
+        <field name="MPN">F931C106KAA</field>
+        <field name="SPN">647-F931C106KAA</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD5529</tstamp>
     </comp>
@@ -1183,7 +1183,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="MCP6002-xMS-linear" description=""/>
+      <libsource lib="" part="MCP6002-xMS-linear" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD6263</tstamp>
     </comp>
@@ -1198,7 +1198,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="MCP6002-xMS-linear" description=""/>
+      <libsource lib="" part="MCP6002-xMS-linear" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD68DE</tstamp>
     </comp>
@@ -1213,7 +1213,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <libsource lib="" part="POT-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD7607</tstamp>
     </comp>
@@ -1228,22 +1228,22 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD7D3B</tstamp>
     </comp>
     <comp ref="C31">
       <value>47u</value>
-      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <footprint>Capacitors_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
       <fields>
         <field name="MFR">AVX</field>
-        <field name="MPN">F931A476KAA</field>
-        <field name="SPN">647-F931A476KAA</field>
+        <field name="MPN">F931C106KAA</field>
+        <field name="SPN">647-F931C106KAA</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD873A</tstamp>
     </comp>
@@ -1258,22 +1258,22 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD8F1B</tstamp>
     </comp>
     <comp ref="C32">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1090_X7R_ESD-1103328.pdf</datasheet>
       <fields>
         <field name="MFR">KEMET</field>
-        <field name="MPN">C0603C103K4RAC</field>
-        <field name="SPN">80-C0603C103K4RAC</field>
+        <field name="MPN">C0603C103K2RECTU</field>
+        <field name="SPN">80-C0603C103K2REC</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD93D4</tstamp>
     </comp>
@@ -1288,7 +1288,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCD9D1A</tstamp>
     </comp>
@@ -1303,7 +1303,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCDA22F</tstamp>
     </comp>
@@ -1318,7 +1318,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCDCD57</tstamp>
     </comp>
@@ -1328,7 +1328,7 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <libsource lib="" part="TEST-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCDE691</tstamp>
     </comp>
@@ -1343,7 +1343,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCDF28B</tstamp>
     </comp>
@@ -1358,7 +1358,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCDF324</tstamp>
     </comp>
@@ -1373,7 +1373,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCE54C1</tstamp>
     </comp>
@@ -1388,7 +1388,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCF132E</tstamp>
     </comp>
@@ -1398,7 +1398,7 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <libsource lib="" part="TEST-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCF5161</tstamp>
     </comp>
@@ -1413,22 +1413,22 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCF7E46</tstamp>
     </comp>
     <comp ref="C28">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1090_X7R_ESD-1103328.pdf</datasheet>
       <fields>
         <field name="MFR">KEMET</field>
-        <field name="MPN">C0603C103K4RAC</field>
-        <field name="SPN">80-C0603C103K4RAC</field>
+        <field name="MPN">C0603C103K2RECTU</field>
+        <field name="SPN">80-C0603C103K2REC</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCF9547</tstamp>
     </comp>
@@ -1443,7 +1443,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCFC66B</tstamp>
     </comp>
@@ -1458,7 +1458,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BCFE016</tstamp>
     </comp>
@@ -1473,7 +1473,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="R_Small-device" description=""/>
+      <libsource lib="" part="R_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD014BE</tstamp>
     </comp>
@@ -1488,37 +1488,37 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="C_Small-device" description=""/>
+      <libsource lib="" part="C_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD0C5B2</tstamp>
     </comp>
     <comp ref="C34">
       <value>47u</value>
-      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <footprint>Capacitors_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
       <fields>
         <field name="MFR">AVX</field>
-        <field name="MPN">F931A476KAA</field>
-        <field name="SPN">647-F931A476KAA</field>
+        <field name="MPN">F931C106KAA</field>
+        <field name="SPN">647-F931C106KAA</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD12DA5</tstamp>
     </comp>
     <comp ref="C36">
       <value>47u</value>
-      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <footprint>Capacitors_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/40/f93-776559.pdf</datasheet>
       <fields>
         <field name="MFR">AVX</field>
-        <field name="MPN">F931A476KAA</field>
-        <field name="SPN">647-F931A476KAA</field>
+        <field name="MPN">F931C106KAA</field>
+        <field name="SPN">647-F931C106KAA</field>
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="CP_Small-device" description=""/>
+      <libsource lib="" part="CP_Small-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD12ECF</tstamp>
     </comp>
@@ -1533,7 +1533,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="POT-device" description=""/>
+      <libsource lib="" part="POT-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD19EAC</tstamp>
     </comp>
@@ -1543,7 +1543,7 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="GS3-conn" description=""/>
+      <libsource lib="" part="GS3-conn" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD241EC</tstamp>
     </comp>
@@ -1553,19 +1553,19 @@
       <fields>
         <field name="SPURL">-</field>
       </fields>
-      <libsource lib="MMDVM_Hat-rescue" part="TEST-device" description=""/>
+      <libsource lib="" part="TEST-device" description=""/>
       <sheetpath names="/Filter/" tstamps="/5BCD4A8F/"/>
       <tstamp>5BD2EFDA</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="MMDVM_Hat-rescue" part="ASV-xxxMHz-Oscillators">
+    <libpart lib="" part="MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators">
       <footprints>
         <fp>Oscillator*SMD*Abracon*ASV*7.0x5.1mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">X</field>
-        <field name="Value">ASV-xxxMHz-Oscillators</field>
+        <field name="Value">MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators</field>
         <field name="Footprint">Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm</field>
       </fields>
       <pins>
@@ -1575,33 +1575,33 @@
         <pin num="4" name="Vdd" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="CP_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:CP_Small-device">
       <footprints>
         <fp>CP_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">CP_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:CP_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="C_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:C_Small-device">
       <footprints>
         <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:C_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Conn_01x04-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:Conn_01x04-conn">
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
         <fp>Connector*:*1x??x*mm*</fp>
@@ -1612,7 +1612,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:Conn_01x04-conn</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1621,7 +1621,7 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Conn_01x07-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:Conn_01x07-conn">
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
         <fp>Connector*:*1x??x*mm*</fp>
@@ -1632,7 +1632,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x07-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:Conn_01x07-conn</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1644,7 +1644,7 @@
         <pin num="7" name="Pin_7" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Conn_02x10_Odd_Even-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn">
       <footprints>
         <fp>Connector*:*2x??x*mm*</fp>
         <fp>Connector*:*2x???Pitch*</fp>
@@ -1655,7 +1655,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x10_Odd_Even-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1680,26 +1680,26 @@
         <pin num="20" name="Pin_20" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Crystal_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:Crystal_Small-device">
       <footprints>
         <fp>Crystal*</fp>
       </footprints>
       <fields>
         <field name="Reference">Y</field>
-        <field name="Value">Crystal_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:Crystal_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="DB9_Female_MountingHoles-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn">
       <footprints>
         <fp>DB*F*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">DB9_Female_MountingHoles-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn</field>
       </fields>
       <pins>
         <pin num="0" name="PAD" type="passive"/>
@@ -1714,7 +1714,7 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Ferrite_Bead_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:Ferrite_Bead_Small-device">
       <footprints>
         <fp>Inductor_*</fp>
         <fp>L_*</fp>
@@ -1722,20 +1722,20 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">Ferrite_Bead_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:Ferrite_Bead_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="GS2-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:GS2-conn">
       <footprints>
         <fp>GS*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">GS2-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:GS2-conn</field>
         <field name="Footprint">Connectors:GS2</field>
       </fields>
       <pins>
@@ -1743,13 +1743,13 @@
         <pin num="2" name="G2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="GS3-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:GS3-conn">
       <footprints>
         <fp>GS*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">GS3-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:GS3-conn</field>
         <field name="Footprint">Connectors:GS3</field>
       </fields>
       <pins>
@@ -1758,13 +1758,13 @@
         <pin num="3" name="G3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="LD1117S33TR_SOT223-regul">
+    <libpart lib="" part="MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul">
       <footprints>
         <fp>SOT?223*TabPin2*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LD1117S33TR_SOT223-regul</field>
+        <field name="Value">MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul</field>
         <field name="Footprint">TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</field>
       </fields>
       <pins>
@@ -1773,21 +1773,21 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="LED_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:LED_Small-device">
       <footprints>
         <fp>LED-*</fp>
         <fp>LED_*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:LED_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="L_Core_Ferrite_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:L_Core_Ferrite_Small-device">
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
@@ -1796,14 +1796,14 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L_Core_Ferrite_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:L_Core_Ferrite_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="MCP6002-xMS-linear">
+    <libpart lib="" part="MMDVM_Hat-rescue:MCP6002-xMS-linear">
       <footprints>
         <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
         <fp>DIP*W7.62mm*</fp>
@@ -1819,7 +1819,7 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">MCP6002-xMS-linear</field>
+        <field name="Value">MMDVM_Hat-rescue:MCP6002-xMS-linear</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="output"/>
@@ -1832,13 +1832,13 @@
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="POT-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:POT-device">
       <footprints>
         <fp>Potentiometer*</fp>
       </footprints>
       <fields>
         <field name="Reference">RV</field>
-        <field name="Value">POT-device</field>
+        <field name="Value">MMDVM_Hat-rescue:POT-device</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1846,10 +1846,10 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Q_NMOS_GSD-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:Q_NMOS_GSD-device">
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">Q_NMOS_GSD-device</field>
+        <field name="Value">MMDVM_Hat-rescue:Q_NMOS_GSD-device</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
@@ -1857,37 +1857,37 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="R-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:R-device">
       <footprints>
         <fp>R_*</fp>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R-device</field>
+        <field name="Value">MMDVM_Hat-rescue:R-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="R_Small-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:R_Small-device">
       <footprints>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_Small-device</field>
+        <field name="Value">MMDVM_Hat-rescue:R_Small-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="Raspberry_Pi_2_3-conn">
+    <libpart lib="" part="MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Raspberry_Pi_2_3-conn</field>
+        <field name="Value">MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn</field>
         <field name="Footprint">Pin_Headers:Pin_Header_Straight_2x20</field>
       </fields>
       <pins>
@@ -1933,13 +1933,13 @@
         <pin num="40" name="GPIO21" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="STM32F722RETx-MCU_ST_STM32F7">
+    <libpart lib="" part="MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7">
       <footprints>
         <fp>LQFP*10x10mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">STM32F722RETx-MCU_ST_STM32F7</field>
+        <field name="Value">MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7</field>
         <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
       </fields>
       <pins>
@@ -2009,21 +2009,17 @@
         <pin num="64" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="MMDVM_Hat-rescue" part="TEST-device">
+    <libpart lib="" part="MMDVM_Hat-rescue:TEST-device">
       <fields>
         <field name="Reference">TP</field>
-        <field name="Value">TEST-device</field>
+        <field name="Value">MMDVM_Hat-rescue:TEST-device</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
       </pins>
     </libpart>
   </libparts>
-  <libraries>
-    <library logical="MMDVM_Hat-rescue">
-      <uri>/opt/MMDVM-F7-Hat/MMDVM_Hat-rescue.lib</uri>
-    </library>
-  </libraries>
+  <libraries/>
   <nets>
     <net code="1" name="Net-(C14-Pad1)">
       <node ref="Q1" pin="1"/>

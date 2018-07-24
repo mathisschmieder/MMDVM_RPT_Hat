@@ -2645,7 +2645,7 @@ Text GLabel 5000 3250 1    50   Input ~ 0
 RADIO_CH_SW
 Text GLabel 4100 3550 0    50   Input ~ 0
 CH_SW
-Text Notes 3900 2850 0    50   ~ 0
+Text Notes 3800 2750 0    50   ~ 0
 Channel Switch Line
 Wire Wire Line
 	5000 3350 5000 3250

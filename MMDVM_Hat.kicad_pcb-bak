@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 72)
-    (tracks 738)
+    (tracks 740)
     (zones 0)
     (modules 115)
     (nets 129)
@@ -5598,6 +5598,8 @@
   (gr_line (start 22.4 125.3) (end 81.4 125.3) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5B335127))
   (gr_line (start 84.4 72.3) (end 84.4 122.3) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5B2CC766))
 
+  (via (at 53.2 97.7) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 28))
+  (via (at 38.9 109.3) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 28))
   (via (at 66.1 89.7) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 28))
   (via (at 66.1 100.7) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 28))
   (via (at 55 104.5) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 28))

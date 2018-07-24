@@ -1,11 +1,97 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x08
+# MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators-MMDVM_Hat-rescue
 #
-DEF Connector_Generic:Conn_01x08 J 0 40 Y N 1 F N
+DEF MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators-MMDVM_Hat-rescue X 0 10 Y Y 1 F N
+F0 "X" -200 250 50 H V L CNN
+F1 "MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators-MMDVM_Hat-rescue" 50 -250 50 H V L CNN
+F2 "Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" 700 -350 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+$FPLIST
+ Oscillator*SMD*Abracon*ASV*7.0x5.1mm*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 10 f
+P 10 0 1 0 -50 -30 -40 -30 -40 30 -20 30 -20 -30 0 -30 0 30 20 30 20 -30 30 -30 N
+X EN 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 O
+X Vdd 4 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# MMDVM_Hat-rescue:CP_Small-device-MMDVM_Hat-rescue
+#
+DEF MMDVM_Hat-rescue:CP_Small-device-MMDVM_Hat-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "MMDVM_Hat-rescue:CP_Small-device-MMDVM_Hat-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue
+#
+DEF MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MMDVM_Hat-rescue:Conn_01x04-conn-MMDVM_Hat-rescue
+#
+DEF MMDVM_Hat-rescue:Conn_01x04-conn-MMDVM_Hat-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "MMDVM_Hat-rescue:Conn_01x04-conn-MMDVM_Hat-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MMDVM_Hat-rescue:Conn_01x08-Connector_Generic
+#
+DEF MMDVM_Hat-rescue:Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic:Conn_01x08" 0 -500 50 H V C CNN
+F1 "MMDVM_Hat-rescue:Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -32,97 +118,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators
+# MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators X 0 10 Y Y 1 F N
-F0 "X" -200 250 50 H V L CNN
-F1 "MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators" 50 -250 50 H V L CNN
-F2 "Oscillators:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" 700 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
-$FPLIST
- Oscillator*SMD*Abracon*ASV*7.0x5.1mm*
-$ENDFPLIST
-DRAW
-S -200 200 200 -200 0 1 10 f
-P 10 0 1 0 -50 -30 -40 -30 -40 30 -20 30 -20 -30 0 -30 0 30 20 30 20 -30 30 -30 N
-X EN 1 -300 0 100 R 50 50 1 1 I
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 O
-X Vdd 4 0 300 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# MMDVM_Hat-rescue:CP_Small-device
-#
-DEF MMDVM_Hat-rescue:CP_Small-device C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "MMDVM_Hat-rescue:CP_Small-device" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-S -60 -12 60 -27 0 1 0 F
-S -60 27 60 12 0 1 0 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 73 D 50 50 1 1 P
-X ~ 2 0 -100 73 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MMDVM_Hat-rescue:C_Small-device
-#
-DEF MMDVM_Hat-rescue:C_Small-device C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "MMDVM_Hat-rescue:C_Small-device" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MMDVM_Hat-rescue:Conn_01x04-conn
-#
-DEF MMDVM_Hat-rescue:Conn_01x04-conn J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "MMDVM_Hat-rescue:Conn_01x04-conn" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn
-#
-DEF MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn J 0 40 Y N 1 F N
+DEF MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn-MMDVM_Hat-rescue J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn" 50 -600 50 H V C CNN
+F1 "MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn-MMDVM_Hat-rescue" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -178,11 +178,11 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:Crystal_Small-device
+# MMDVM_Hat-rescue:Crystal_Small-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:Crystal_Small-device Y 0 40 N N 1 F N
+DEF MMDVM_Hat-rescue:Crystal_Small-device-MMDVM_Hat-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "MMDVM_Hat-rescue:Crystal_Small-device" 0 -100 50 H V C CNN
+F1 "MMDVM_Hat-rescue:Crystal_Small-device-MMDVM_Hat-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -197,11 +197,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn
+# MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn J 0 40 Y N 1 F N
+DEF MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn-MMDVM_Hat-rescue J 0 40 Y N 1 F N
 F0 "J" 0 650 50 H V C CNN
-F1 "MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn" 0 575 50 H V C CNN
+F1 "MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn-MMDVM_Hat-rescue" 0 575 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -240,11 +240,11 @@ X 9 9 -300 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:Ferrite_Bead_Small-device
+# MMDVM_Hat-rescue:Ferrite_Bead_Small-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:Ferrite_Bead_Small-device L 0 0 N Y 1 F N
+DEF MMDVM_Hat-rescue:Ferrite_Bead_Small-device-MMDVM_Hat-rescue L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "MMDVM_Hat-rescue:Ferrite_Bead_Small-device" 75 -50 50 H V L CNN
+F1 "MMDVM_Hat-rescue:Ferrite_Bead_Small-device-MMDVM_Hat-rescue" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -261,11 +261,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:GS2-conn
+# MMDVM_Hat-rescue:GS2-conn-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:GS2-conn J 0 40 N N 1 F N
+DEF MMDVM_Hat-rescue:GS2-conn-MMDVM_Hat-rescue J 0 40 N N 1 F N
 F0 "J" 100 150 50 H V C CNN
-F1 "MMDVM_Hat-rescue:GS2-conn" 100 -149 50 H V C CNN
+F1 "MMDVM_Hat-rescue:GS2-conn-MMDVM_Hat-rescue" 100 -149 50 H V C CNN
 F2 "Connectors:GS2" 74 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -279,11 +279,11 @@ X G2 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:GS3-conn
+# MMDVM_Hat-rescue:GS3-conn-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:GS3-conn J 0 40 Y N 1 F N
+DEF MMDVM_Hat-rescue:GS3-conn-MMDVM_Hat-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "MMDVM_Hat-rescue:GS3-conn" 50 -199 50 H V C CNN
+F1 "MMDVM_Hat-rescue:GS3-conn-MMDVM_Hat-rescue" 50 -199 50 H V C CNN
 F2 "Connectors:GS3" 88 -74 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -299,11 +299,11 @@ X G3 3 -150 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul
+# MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul U 0 10 Y Y 1 F N
+DEF MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul-MMDVM_Hat-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul" 0 125 50 H V L CNN
+F1 "MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul-MMDVM_Hat-rescue" 0 125 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" 0 200 50 H I C CNN
 F3 "" 100 -250 50 H I C CNN
 $FPLIST
@@ -317,11 +317,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:LED_Small-device
+# MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:LED_Small-device D 0 10 N N 1 F N
+DEF MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "MMDVM_Hat-rescue:LED_Small-device" -175 -100 50 H V L CNN
+F1 "MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -339,11 +339,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:L_Core_Ferrite_Small-device
+# MMDVM_Hat-rescue:L_Core_Ferrite_Small-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:L_Core_Ferrite_Small-device L 0 10 N N 1 F N
+DEF MMDVM_Hat-rescue:L_Core_Ferrite_Small-device-MMDVM_Hat-rescue L 0 10 N N 1 F N
 F0 "L" 50 40 50 H V L CNN
-F1 "MMDVM_Hat-rescue:L_Core_Ferrite_Small-device" 50 -50 50 H V L CNN
+F1 "MMDVM_Hat-rescue:L_Core_Ferrite_Small-device-MMDVM_Hat-rescue" 50 -50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -378,11 +378,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:MCP6002-xMS-linear
+# MMDVM_Hat-rescue:MCP6002-xMS-linear-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:MCP6002-xMS-linear U 0 20 Y Y 2 F N
+DEF MMDVM_Hat-rescue:MCP6002-xMS-linear-MMDVM_Hat-rescue U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "MMDVM_Hat-rescue:MCP6002-xMS-linear" 0 -200 50 H V L CNN
+F1 "MMDVM_Hat-rescue:MCP6002-xMS-linear-MMDVM_Hat-rescue" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -411,11 +411,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:POT-device
+# MMDVM_Hat-rescue:POT-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:POT-device RV 0 40 N N 1 F N
+DEF MMDVM_Hat-rescue:POT-device-MMDVM_Hat-rescue RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "MMDVM_Hat-rescue:POT-device" -100 0 50 V V C CNN
+F1 "MMDVM_Hat-rescue:POT-device-MMDVM_Hat-rescue" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -431,11 +431,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:Q_NMOS_GSD-device
+# MMDVM_Hat-rescue:Q_NMOS_GSD-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:Q_NMOS_GSD-device Q 0 0 Y N 1 F N
+DEF MMDVM_Hat-rescue:Q_NMOS_GSD-device-MMDVM_Hat-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "MMDVM_Hat-rescue:Q_NMOS_GSD-device" 200 -50 50 H V L CNN
+F1 "MMDVM_Hat-rescue:Q_NMOS_GSD-device-MMDVM_Hat-rescue" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -463,11 +463,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:R-device
+# MMDVM_Hat-rescue:R-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:R-device R 0 0 N Y 1 F N
+DEF MMDVM_Hat-rescue:R-device-MMDVM_Hat-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "MMDVM_Hat-rescue:R-device" 0 0 50 V V C CNN
+F1 "MMDVM_Hat-rescue:R-device-MMDVM_Hat-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -481,11 +481,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:R_Small-device
+# MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:R_Small-device R 0 10 N N 1 F N
+DEF MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "MMDVM_Hat-rescue:R_Small-device" 30 -40 50 H V L CNN
+F1 "MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -498,11 +498,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn
+# MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn J 0 40 Y Y 1 F N
+DEF MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn-MMDVM_Hat-rescue J 0 40 Y Y 1 F N
 F0 "J" 700 -1250 50 H V C CNN
-F1 "MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn" -400 900 50 H V C CNN
+F1 "MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn-MMDVM_Hat-rescue" -400 900 50 H V C CNN
 F2 "Pin_Headers:Pin_Header_Straight_2x20" 1000 1250 50 H I C CNN
 F3 "" 50 -150 50 H I C CNN
 DRAW
@@ -550,11 +550,11 @@ X GND 9 -300 -1300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7
+# MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7 U 0 20 Y Y 1 F N
+DEF MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7-MMDVM_Hat-rescue U 0 20 Y Y 1 F N
 F0 "U" -600 1750 50 H V L CNN
-F1 "MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7" 300 1750 50 H V L CNN
+F1 "MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7-MMDVM_Hat-rescue" 300 1750 50 H V L CNN
 F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" -600 -1700 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -629,11 +629,11 @@ X PC1 9 -700 -300 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# MMDVM_Hat-rescue:TEST-device
+# MMDVM_Hat-rescue:TEST-device-MMDVM_Hat-rescue
 #
-DEF MMDVM_Hat-rescue:TEST-device TP 0 40 N N 1 F N
+DEF MMDVM_Hat-rescue:TEST-device-MMDVM_Hat-rescue TP 0 40 N N 1 F N
 F0 "TP" 0 300 50 H V C BNN
-F1 "MMDVM_Hat-rescue:TEST-device" 0 250 50 H V C CNN
+F1 "MMDVM_Hat-rescue:TEST-device-MMDVM_Hat-rescue" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

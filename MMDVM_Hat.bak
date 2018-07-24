@@ -21,7 +21,7 @@ F0 "Filter" 50
 F1 "Filter.sch" 50
 $EndSheet
 $Comp
-L MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn J2
+L MMDVM_Hat-rescue:Raspberry_Pi_2_3-conn-MMDVM_Hat-rescue J2
 U 1 1 5B236CB9
 P 2100 6050
 F 0 "J2" H 1350 7350 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 750 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:CP_Small-device C1
+L MMDVM_Hat-rescue:CP_Small-device-MMDVM_Hat-rescue C1
 U 1 1 5B2374B7
 P 750 1000
 F 0 "C1" H 838 1046 50  0000 L CNN
@@ -86,7 +86,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C2
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C2
 U 1 1 5B237544
 P 950 1000
 F 0 "C2" H 1042 1046 50  0000 L CNN
@@ -113,7 +113,7 @@ F 3 "" H 750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul U1
+L MMDVM_Hat-rescue:LD1117S33TR_SOT223-regul-MMDVM_Hat-rescue U1
 U 1 1 5B237FFF
 P 1600 800
 F 0 "U1" H 1600 1042 50  0000 C CNN
@@ -151,7 +151,7 @@ F 3 "" H 1600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C3
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C3
 U 1 1 5B238785
 P 2100 1000
 F 0 "C3" H 2192 1046 50  0000 L CNN
@@ -167,7 +167,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:CP_Small-device C5
+L MMDVM_Hat-rescue:CP_Small-device-MMDVM_Hat-rescue C5
 U 1 1 5B238BBC
 P 2300 1000
 F 0 "C5" H 2388 1046 50  0000 L CNN
@@ -183,7 +183,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:L_Core_Ferrite_Small-device L1
+L MMDVM_Hat-rescue:L_Core_Ferrite_Small-device-MMDVM_Hat-rescue L1
 U 1 1 5B239116
 P 2500 800
 F 0 "L1" V 2705 800 50  0000 C CNN
@@ -199,7 +199,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C7
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C7
 U 1 1 5B239610
 P 2700 1000
 F 0 "C7" H 2792 1046 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "" H 9750 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C21
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C21
 U 1 1 5B24A2E2
 P 9000 1850
 F 0 "C21" V 9200 1850 50  0000 C CNN
@@ -286,7 +286,7 @@ F 8 "-" H -400 100 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C20
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C20
 U 1 1 5B24F686
 P 9000 1700
 F 0 "C20" V 8771 1700 50  0000 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 8800 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Ferrite_Bead_Small-device L2
+L MMDVM_Hat-rescue:Ferrite_Bead_Small-device-MMDVM_Hat-rescue L2
 U 1 1 5B252E3C
 P 9600 1200
 F 0 "L2" H 9699 1246 50  0000 L CNN
@@ -329,7 +329,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C22
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C22
 U 1 1 5B25423C
 P 9900 1100
 F 0 "C22" V 10100 1100 50  0000 C CNN
@@ -345,7 +345,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C23
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C23
 U 1 1 5B2543DB
 P 9900 1250
 F 0 "C23" V 10100 1250 50  0000 C CNN
@@ -372,7 +372,7 @@ F 3 "" H 10100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C24
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C24
 U 1 1 5B25F57F
 P 10450 1100
 F 0 "C24" V 10650 1100 50  0000 C CNN
@@ -388,7 +388,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C25
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C25
 U 1 1 5B25F586
 P 10450 1250
 F 0 "C25" V 10650 1250 50  0000 C CNN
@@ -426,7 +426,7 @@ F 3 "" H 9600 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C19
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C19
 U 1 1 5B27D316
 P 8950 2850
 F 0 "C19" V 9200 2850 50  0000 C CNN
@@ -453,7 +453,7 @@ F 3 "" H 8750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R-device R19
+L MMDVM_Hat-rescue:R-device-MMDVM_Hat-rescue R19
 U 1 1 5B2BA920
 P 8200 4050
 F 0 "R19" V 7993 4050 50  0000 C CNN
@@ -469,7 +469,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Crystal_Small-device Y1
+L MMDVM_Hat-rescue:Crystal_Small-device-MMDVM_Hat-rescue Y1
 U 1 1 5B2BAA18
 P 8200 4200
 F 0 "Y1" H 8200 4000 50  0000 C CNN
@@ -485,7 +485,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C17
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C17
 U 1 1 5B2C2936
 P 7950 4400
 F 0 "C17" H 8042 4446 50  0000 L CNN
@@ -501,7 +501,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C18
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C18
 U 1 1 5B2C29B1
 P 8450 4400
 F 0 "C18" H 8542 4446 50  0000 L CNN
@@ -539,7 +539,7 @@ F 3 "" H 7950 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D1
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D1
 U 1 1 5B2EA396
 P 750 2550
 F 0 "D1" V 750 2482 50  0000 R CNN
@@ -555,7 +555,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D2
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D2
 U 1 1 5B2EA4C1
 P 1050 2550
 F 0 "D2" V 1050 2482 50  0000 R CNN
@@ -582,7 +582,7 @@ F 3 "" H 750 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R1
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R1
 U 1 1 5B2F3C6F
 P 750 2250
 F 0 "R1" H 809 2296 50  0000 L CNN
@@ -598,7 +598,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R2
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R2
 U 1 1 5B2F8AF1
 P 1050 2250
 F 0 "R2" H 1109 2296 50  0000 L CNN
@@ -636,7 +636,7 @@ F 3 "" H 9950 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R3
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R3
 U 1 1 5B3DB785
 P 1000 5750
 F 0 "R3" V 804 5750 50  0000 C CNN
@@ -663,7 +663,7 @@ F 3 "" H 8500 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C10
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C10
 U 1 1 5B3E8D5D
 P 8500 1300
 F 0 "C10" H 8592 1346 50  0000 L CNN
@@ -690,7 +690,7 @@ F 3 "" H 8500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R10
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R10
 U 1 1 5B434B3F
 P 8500 900
 F 0 "R10" H 8559 946 50  0000 L CNN
@@ -706,7 +706,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators X1
+L MMDVM_Hat-rescue:ASV-xxxMHz-Oscillators-MMDVM_Hat-rescue X1
 U 1 1 5B50465D
 P 4500 1600
 F 0 "X1" H 4550 1350 50  0000 L CNN
@@ -722,7 +722,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C13
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C13
 U 1 1 5B50BA83
 P 5000 1600
 F 0 "C13" V 5200 1600 50  0000 C CNN
@@ -771,7 +771,7 @@ F 3 "" H 4500 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C12
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C12
 U 1 1 5B5531CC
 P 4200 1000
 F 0 "C12" H 4292 1046 50  0000 L CNN
@@ -787,7 +787,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C11
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C11
 U 1 1 5B5532B1
 P 4050 1000
 F 0 "C11" H 4142 1046 50  0000 L CNN
@@ -814,7 +814,7 @@ F 3 "" H 4050 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:GS2-conn J7
+L MMDVM_Hat-rescue:GS2-conn-MMDVM_Hat-rescue J7
 U 1 1 5B59B6CB
 P 6400 900
 F 0 "J7" V 6500 900 50  0000 C CNN
@@ -830,7 +830,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R16
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R16
 U 1 1 5B59B862
 P 6800 800
 F 0 "R16" V 6604 800 50  0000 C CNN
@@ -846,7 +846,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R17
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R17
 U 1 1 5B59B97D
 P 6800 900
 F 0 "R17" V 7000 900 50  0000 C CNN
@@ -862,7 +862,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C16
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C16
 U 1 1 5B5BEF70
 P 7100 1050
 F 0 "C16" V 7300 1050 50  0000 C CNN
@@ -889,7 +889,7 @@ F 3 "" H 7100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:POT-device RV1
+L MMDVM_Hat-rescue:POT-device-MMDVM_Hat-rescue RV1
 U 1 1 5B5D1DAA
 P 7550 1050
 F 0 "RV1" V 7450 1100 50  0000 R CNN
@@ -916,7 +916,7 @@ F 3 "" H 7550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:TEST-device TP1
+L MMDVM_Hat-rescue:TEST-device-MMDVM_Hat-rescue TP1
 U 1 1 5B5F89B8
 P 7800 950
 F 0 "TP1" H 7878 1044 50  0000 L CNN
@@ -932,7 +932,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Q_NMOS_GSD-device Q1
+L MMDVM_Hat-rescue:Q_NMOS_GSD-device-MMDVM_Hat-rescue Q1
 U 1 1 5B620C09
 P 6700 2500
 F 0 "Q1" H 6905 2546 50  0000 L CNN
@@ -948,7 +948,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C14
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C14
 U 1 1 5B62B0A5
 P 6400 2700
 F 0 "C14" H 6492 2746 50  0000 L CNN
@@ -964,7 +964,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R13
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R13
 U 1 1 5B63573C
 P 6200 2500
 F 0 "R13" V 6004 2500 50  0000 C CNN
@@ -980,7 +980,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R12
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R12
 U 1 1 5B635831
 P 6000 2700
 F 0 "R12" H 5941 2654 50  0000 R CNN
@@ -1029,7 +1029,7 @@ F 3 "" H 6000 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Q_NMOS_GSD-device Q2
+L MMDVM_Hat-rescue:Q_NMOS_GSD-device-MMDVM_Hat-rescue Q2
 U 1 1 5B68D501
 P 7050 3750
 F 0 "Q2" H 7255 3796 50  0000 L CNN
@@ -1056,7 +1056,7 @@ F 3 "" H 7150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R18
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R18
 U 1 1 5B6AFD5F
 P 7150 4250
 F 0 "R18" H 7091 4204 50  0000 R CNN
@@ -1072,7 +1072,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C15
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C15
 U 1 1 5B6AFDF0
 P 6750 3950
 F 0 "C15" H 6842 3996 50  0000 L CNN
@@ -1088,7 +1088,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R15
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R15
 U 1 1 5B6BBC79
 P 6550 3950
 F 0 "R15" H 6492 3904 50  0000 R CNN
@@ -1104,7 +1104,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    1   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R14
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R14
 U 1 1 5B6C7FB2
 P 6350 3750
 F 0 "R14" V 6154 3750 50  0000 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 7150 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D3
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D3
 U 1 1 5B720886
 P 1350 2550
 F 0 "D3" V 1350 2482 50  0000 R CNN
@@ -1169,7 +1169,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D4
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D4
 U 1 1 5B7209C4
 P 1650 2550
 F 0 "D4" V 1650 2482 50  0000 R CNN
@@ -1185,7 +1185,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D5
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D5
 U 1 1 5B720A83
 P 3300 2550
 F 0 "D5" V 3300 2482 50  0000 R CNN
@@ -1201,7 +1201,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D6
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D6
 U 1 1 5B720B45
 P 3000 2550
 F 0 "D6" V 3000 2482 50  0000 R CNN
@@ -1217,7 +1217,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D7
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D7
 U 1 1 5B720C0A
 P 2700 2550
 F 0 "D7" V 2700 2482 50  0000 R CNN
@@ -1233,7 +1233,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D8
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D8
 U 1 1 5B720CD0
 P 2400 2550
 F 0 "D8" V 2400 2482 50  0000 R CNN
@@ -1249,7 +1249,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D9
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D9
 U 1 1 5B720D9B
 P 1950 2550
 F 0 "D9" V 1950 2482 50  0000 R CNN
@@ -1265,7 +1265,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R4
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R4
 U 1 1 5B781827
 P 1350 2250
 F 0 "R4" H 1409 2296 50  0000 L CNN
@@ -1281,7 +1281,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R5
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R5
 U 1 1 5B7818C3
 P 1650 2250
 F 0 "R5" H 1709 2296 50  0000 L CNN
@@ -1297,7 +1297,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R6
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R6
 U 1 1 5B781951
 P 3300 2250
 F 0 "R6" H 3359 2296 50  0000 L CNN
@@ -1313,7 +1313,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R7
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R7
 U 1 1 5B7819E3
 P 3000 2250
 F 0 "R7" H 3059 2296 50  0000 L CNN
@@ -1329,7 +1329,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R8
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R8
 U 1 1 5B781A71
 P 2700 2250
 F 0 "R8" H 2759 2296 50  0000 L CNN
@@ -1345,7 +1345,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R9
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R9
 U 1 1 5B781B05
 P 2400 2250
 F 0 "R9" H 2459 2296 50  0000 L CNN
@@ -1361,7 +1361,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R11
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R11
 U 1 1 5B781B9D
 P 1950 2250
 F 0 "R11" H 2009 2296 50  0000 L CNN
@@ -1377,7 +1377,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn J1
+L MMDVM_Hat-rescue:DB9_Female_MountingHoles-conn-MMDVM_Hat-rescue J1
 U 1 1 5B9AB44F
 P 3650 4800
 F 0 "J1" H 3830 4803 50  0000 L CNN
@@ -1426,7 +1426,7 @@ F 3 "" H 5150 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Conn_01x04-conn J3
+L MMDVM_Hat-rescue:Conn_01x04-conn-MMDVM_Hat-rescue J3
 U 1 1 5BB9233F
 P 3950 6300
 F 0 "J3" H 4030 6292 50  0000 L CNN
@@ -1442,7 +1442,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Conn_01x04-conn J6
+L MMDVM_Hat-rescue:Conn_01x04-conn-MMDVM_Hat-rescue J6
 U 1 1 5BB9242B
 P 5100 6400
 F 0 "J6" H 5180 6392 50  0000 L CNN
@@ -1502,7 +1502,7 @@ F 3 "" H 5400 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:LED_Small-device D10
+L MMDVM_Hat-rescue:LED_Small-device-MMDVM_Hat-rescue D10
 U 1 1 5B446FD0
 P 3600 2550
 F 0 "D10" V 3600 2482 50  0000 R CNN
@@ -1518,7 +1518,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R33
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R33
 U 1 1 5B44706E
 P 3600 2250
 F 0 "R33" H 3659 2296 50  0000 L CNN
@@ -1545,7 +1545,7 @@ F 3 "" H 1750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn J4
+L MMDVM_Hat-rescue:Conn_02x10_Odd_Even-conn-MMDVM_Hat-rescue J4
 U 1 1 5B9764E6
 P 2250 3550
 F 0 "J4" V 2254 4030 50  0000 L CNN
@@ -1561,7 +1561,7 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C4
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C4
 U 1 1 5B5E0676
 P 9500 1950
 F 0 "C4" V 9700 1950 50  0000 C CNN
@@ -2495,8 +2495,6 @@ NoConn ~ 9250 4350
 NoConn ~ 9250 4450
 NoConn ~ 9250 4550
 NoConn ~ 9250 4650
-NoConn ~ 9250 5150
-NoConn ~ 9250 5250
 NoConn ~ 9250 5450
 NoConn ~ 9250 5550
 NoConn ~ 9250 5650
@@ -2545,7 +2543,7 @@ NoConn ~ 3000 5150
 NoConn ~ 4200 1600
 NoConn ~ 3950 5100
 $Comp
-L MMDVM_Hat-rescue:Q_NMOS_GSD-device Q3
+L MMDVM_Hat-rescue:Q_NMOS_GSD-device-MMDVM_Hat-rescue Q3
 U 1 1 5B590179
 P 4900 3550
 F 0 "Q3" H 5105 3596 50  0000 L CNN
@@ -2561,7 +2559,7 @@ F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C6
+L MMDVM_Hat-rescue:C_Small-device-MMDVM_Hat-rescue C6
 U 1 1 5B590185
 P 4600 3750
 F 0 "C6" H 4692 3796 50  0000 L CNN
@@ -2577,7 +2575,7 @@ F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R35
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R35
 U 1 1 5B590191
 P 4400 3550
 F 0 "R35" V 4204 3550 50  0000 C CNN
@@ -2593,7 +2591,7 @@ F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:R_Small-device R34
+L MMDVM_Hat-rescue:R_Small-device-MMDVM_Hat-rescue R34
 U 1 1 5B59019D
 P 4200 3750
 F 0 "R34" H 4141 3704 50  0000 R CNN
@@ -2645,7 +2643,7 @@ Text GLabel 5000 3250 1    50   Input ~ 0
 RADIO_CH_SW
 Text GLabel 4100 3550 0    50   Input ~ 0
 CH_SW
-Text Notes 3900 2850 0    50   ~ 0
+Text Notes 3800 2750 0    50   ~ 0
 Channel Switch Line
 Wire Wire Line
 	5000 3350 5000 3250
@@ -2678,7 +2676,7 @@ Wire Notes Line
 Wire Notes Line
 	3750 2650 5550 2650
 $Comp
-L Connector_Generic:Conn_01x08 J5
+L MMDVM_Hat-rescue:Conn_01x08-Connector_Generic J5
 U 1 1 5B643BAA
 P 4850 5250
 F 0 "J5" H 4770 4625 50  0000 C CNN
@@ -2698,12 +2696,10 @@ Wire Wire Line
 	3950 4900 4150 4900
 NoConn ~ 10550 4150
 NoConn ~ 10550 4250
-Text GLabel 10650 5250 2    50   Input ~ 0
+Text GLabel 9150 5250 0    50   Input ~ 0
 CH_SW
-Wire Wire Line
-	10550 5250 10650 5250
 $Comp
-L MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7 U2
+L MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7-MMDVM_Hat-rescue U2
 U 1 1 5B248128
 P 9950 4050
 F 0 "U2" H 9900 4100 50  0000 C CNN
@@ -2718,4 +2714,8 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    9950 4050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 10550 5250
+Wire Wire Line
+	9150 5250 9250 5250
+NoConn ~ 9250 5150
 $EndSCHEMATC

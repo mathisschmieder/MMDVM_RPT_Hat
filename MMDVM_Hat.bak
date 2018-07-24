@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "MMDVM-F7-Hat"
-Date "2018-07-23"
+Date "2018-07-24"
 Rev "0.1"
 Comp "DB9MAT, DF2ET"
 Comment1 ""
@@ -256,22 +256,6 @@ F 1 "+3V3" H 2815 873 50  0000 C CNN
 F 2 "" H 2800 700 50  0001 C CNN
 F 3 "" H 2800 700 50  0001 C CNN
 	1    2800 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7 U2
-U 1 1 5B248128
-P 9950 4050
-F 0 "U2" H 9900 4100 50  0000 C CNN
-F 1 "STM32F722RETx" H 9900 3950 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 9350 2350 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00330506.pdf" H 9950 4050 50  0001 C CNN
-F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
-F 5 "STM32F722RET6" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "511-STM32F722RET6" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9950 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1431,30 +1415,14 @@ F 3 "" H 3650 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MMDVM_Hat-rescue:Conn_01x07-conn J5
-U 1 1 5BA985D4
-P 4750 5100
-F 0 "J5" H 4670 4575 50  0000 C CNN
-F 1 "Radio" H 4670 4666 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 4750 5100 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/445/6130xx11121-538006.pdf" H 4750 5100 50  0001 C CNN
-F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
-F 5 "61300711121" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "710-61300711121" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    4750 5100
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR043
 U 1 1 5BB66B07
-P 5050 5500
-F 0 "#PWR043" H 5050 5250 50  0001 C CNN
-F 1 "GND" H 5055 5327 50  0000 C CNN
-F 2 "" H 5050 5500 50  0001 C CNN
-F 3 "" H 5050 5500 50  0001 C CNN
-	1    5050 5500
+P 5150 5650
+F 0 "#PWR043" H 5150 5400 50  0001 C CNN
+F 1 "GND" H 5155 5477 50  0000 C CNN
+F 2 "" H 5150 5650 50  0001 C CNN
+F 3 "" H 5150 5650 50  0001 C CNN
+	1    5150 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1592,6 +1560,33 @@ F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    2250 3550
 	0    1    1    0   
 $EndComp
+$Comp
+L MMDVM_Hat-rescue:C_Small-device C4
+U 1 1 5B5E0676
+P 9500 1950
+F 0 "C4" V 9700 1950 50  0000 C CNN
+F 1 "100n" V 9600 1950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 9500 1950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf" H 9500 1950 50  0001 C CNN
+F 4 "KEMET" H -400 850 50  0001 C CNN "MFR"
+F 5 "C0603T104K3RALTU" H -400 850 50  0001 C CNN "MPN"
+F 6 "Mouser" H -400 850 50  0001 C CNN "SPR"
+F 7 "80-C0603T104K3RALTU" H -400 850 50  0001 C CNN "SPN"
+F 8 "-" H -400 850 50  0001 C CNN "SPURL"
+	1    9500 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR068
+U 1 1 5B5E094C
+P 9350 1600
+F 0 "#PWR068" H 9350 1350 50  0001 C CNN
+F 1 "GND" H 9355 1427 50  0000 C CNN
+F 2 "" H 9350 1600 50  0001 C CNN
+F 3 "" H 9350 1600 50  0001 C CNN
+	1    9350 1600
+	1    0    0    -1  
+$EndComp
 Text GLabel 9050 2450 0    50   Input ~ 0
 NRST
 Text GLabel 9050 2650 0    50   Input ~ 0
@@ -1692,15 +1687,15 @@ Text GLabel 4150 5000 2    50   Input ~ 0
 RADIO_RX
 Text GLabel 4150 5200 2    50   Input ~ 0
 R_RSSI
-Text GLabel 5150 4800 2    50   Input ~ 0
+Text GLabel 5250 4950 2    50   Input ~ 0
 RADIO_TX
-Text GLabel 5150 5000 2    50   Input ~ 0
+Text GLabel 5250 5150 2    50   Input ~ 0
 RADIO_PTT
-Text GLabel 5150 5100 2    50   Input ~ 0
+Text GLabel 5250 5250 2    50   Input ~ 0
 RADIO_RX
-Text GLabel 5150 5200 2    50   Input ~ 0
+Text GLabel 5250 5350 2    50   Input ~ 0
 R_RSSI
-Text GLabel 5150 5300 2    50   Input ~ 0
+Text GLabel 5250 5450 2    50   Input ~ 0
 RADIO_COS
 Text GLabel 4250 6400 2    50   Input ~ 0
 RX_NEXTION
@@ -1908,8 +1903,6 @@ Wire Wire Line
 	10550 3850 10650 3850
 Wire Wire Line
 	10550 3950 10650 3950
-Wire Wire Line
-	10550 4250 10650 4250
 Wire Wire Line
 	9150 4250 9250 4250
 Wire Wire Line
@@ -2173,19 +2166,19 @@ Wire Wire Line
 Wire Wire Line
 	3950 4500 4150 4500
 Wire Wire Line
-	4950 4800 5150 4800
+	5050 4950 5250 4950
 Wire Wire Line
-	4950 5000 5150 5000
+	5050 5150 5250 5150
 Wire Wire Line
-	4950 5100 5150 5100
+	5050 5250 5250 5250
 Wire Wire Line
-	4950 5200 5150 5200
+	5050 5350 5250 5350
 Wire Wire Line
-	4950 4900 5050 4900
+	5050 5050 5150 5050
 Wire Wire Line
-	4950 5400 5050 5400
+	5050 5550 5150 5550
 Wire Wire Line
-	5050 5400 5050 5500
+	5150 5550 5150 5650
 Wire Wire Line
 	4150 6200 4250 6200
 Wire Wire Line
@@ -2323,9 +2316,9 @@ Wire Wire Line
 Wire Notes Line
 	6050 3750 5950 3750
 Wire Wire Line
-	5050 4900 5050 5400
+	5150 5050 5150 5550
 Wire Wire Line
-	4950 5300 5150 5300
+	5050 5450 5250 5450
 Wire Wire Line
 	1850 2400 1850 3100
 Wire Wire Line
@@ -2404,6 +2397,24 @@ Wire Wire Line
 	3200 2400 3200 3200
 Wire Wire Line
 	3300 2400 3300 2450
+Wire Wire Line
+	9200 1400 9600 1400
+Wire Wire Line
+	9600 1400 9600 1300
+Wire Wire Line
+	9250 2950 9200 2950
+Wire Wire Line
+	9200 2950 9200 1850
+Wire Wire Line
+	9500 2150 9500 2050
+Wire Wire Line
+	9500 2150 9750 2150
+Wire Wire Line
+	9500 1850 9500 1550
+Wire Wire Line
+	9500 1550 9350 1550
+Wire Wire Line
+	9350 1550 9350 1600
 Connection ~ 1950 4650
 Connection ~ 2400 7450
 Connection ~ 1800 7450
@@ -2452,7 +2463,7 @@ Connection ~ 6550 3750
 Connection ~ 1650 2750
 Connection ~ 1350 2750
 Connection ~ 4050 4700
-Connection ~ 5050 5400
+Connection ~ 5150 5550
 Connection ~ 750  2400
 Connection ~ 1050 2750
 Connection ~ 3600 2400
@@ -2478,6 +2489,8 @@ Connection ~ 2400 2400
 Connection ~ 2700 2400
 Connection ~ 3000 2400
 Connection ~ 3300 2400
+Connection ~ 9200 1850
+Connection ~ 9750 2150
 NoConn ~ 9250 4350
 NoConn ~ 9250 4450
 NoConn ~ 9250 4550
@@ -2487,7 +2500,6 @@ NoConn ~ 9250 5250
 NoConn ~ 9250 5450
 NoConn ~ 9250 5550
 NoConn ~ 9250 5650
-NoConn ~ 10550 5250
 NoConn ~ 10550 5150
 NoConn ~ 10550 5050
 NoConn ~ 10550 4950
@@ -2530,48 +2542,180 @@ NoConn ~ 3000 5550
 NoConn ~ 3000 5350
 NoConn ~ 3000 5250
 NoConn ~ 3000 5150
-NoConn ~ 4200 1500
-NoConn ~ 3950 4900
+NoConn ~ 4200 1600
 NoConn ~ 3950 5100
-Wire Wire Line
-	9200 1400 9600 1400
-Wire Wire Line
-	9600 1400 9600 1300
-Wire Wire Line
-	9250 2950 9200 2950
-Wire Wire Line
-	9200 2950 9200 1850
-Connection ~ 9200 1850
 $Comp
-L MMDVM_Hat-rescue:C_Small-device C4
-U 1 1 5B5E0676
-P 9500 2150
-F 0 "C4" V 9700 2150 50  0000 C CNN
-F 1 "100n" V 9600 2150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 9500 2150 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1027_X7R_COTS_SMD-1099449.pdf" H 9500 2150 50  0001 C CNN
-F 4 "KEMET" H -400 1050 50  0001 C CNN "MFR"
-F 5 "C0603T104K3RALTU" H -400 1050 50  0001 C CNN "MPN"
-F 6 "Mouser" H -400 1050 50  0001 C CNN "SPR"
-F 7 "80-C0603T104K3RALTU" H -400 1050 50  0001 C CNN "SPN"
-F 8 "-" H -400 1050 50  0001 C CNN "SPURL"
-	1    9500 2150
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B5E094C
-P 9300 2150
-F 0 "#PWR?" H 9300 1900 50  0001 C CNN
-F 1 "GND" H 9305 1977 50  0000 C CNN
-F 2 "" H 9300 2150 50  0001 C CNN
-F 3 "" H 9300 2150 50  0001 C CNN
-	1    9300 2150
+L MMDVM_Hat-rescue:Q_NMOS_GSD-device Q3
+U 1 1 5B590179
+P 4900 3550
+F 0 "Q3" H 5105 3596 50  0000 L CNN
+F 1 "2N7002" H 5105 3505 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5100 3650 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/196/irlml2060pbf-1228502.pdf" H 4900 3550 50  0001 C CNN
+F 4 "Infineon Technologies" H -1800 1050 50  0001 C CNN "MFR"
+F 5 "IRLML2060TRPBF" H -1800 1050 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1800 1050 50  0001 C CNN "SPR"
+F 7 "942-IRLML2060TRPBF" H -1800 1050 50  0001 C CNN "SPN"
+F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
+	1    4900 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L MMDVM_Hat-rescue:C_Small-device C6
+U 1 1 5B590185
+P 4600 3750
+F 0 "C6" H 4692 3796 50  0000 L CNN
+F 1 "470p" H 4692 3705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4600 3750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4600 3750 50  0001 C CNN
+F 4 "KEMET" H -1800 1050 50  0001 C CNN "MFR"
+F 5 "C0603C471K4RACTU" H -1800 1050 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1800 1050 50  0001 C CNN "SPR"
+F 7 "80-C0603C471K4R" H -1800 1050 50  0001 C CNN "SPN"
+F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMDVM_Hat-rescue:R_Small-device R35
+U 1 1 5B590191
+P 4400 3550
+F 0 "R35" V 4204 3550 50  0000 C CNN
+F 1 "330" V 4295 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4400 3550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/315/AOA0000C334-1314047.pdf" H 4400 3550 50  0001 C CNN
+F 4 "Panasonic" H -1800 1050 50  0001 C CNN "MFR"
+F 5 "ERJ-U03F3300V" H -1800 1050 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1800 1050 50  0001 C CNN "SPR"
+F 7 "667-ERJ-U03F3300V" H -1800 1050 50  0001 C CNN "SPN"
+F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
+	1    4400 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L MMDVM_Hat-rescue:R_Small-device R34
+U 1 1 5B59019D
+P 4200 3750
+F 0 "R34" H 4141 3704 50  0000 R CNN
+F 1 "47k" H 4141 3795 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" H 4200 3750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 4200 3750 50  0001 C CNN
+F 4 "Panasonic" H -1800 1050 50  0001 C CNN "MFR"
+F 5 "ERJ-3EKF4702V" H -1800 1050 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1800 1050 50  0001 C CNN "SPR"
+F 7 "667-ERJ-3EKF4702V" H -1800 1050 50  0001 C CNN "SPN"
+F 8 "-" H -1800 1050 50  0001 C CNN "SPURL"
+	1    4200 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 5B5901A4
+P 5000 3950
+F 0 "#PWR040" H 5000 3700 50  0001 C CNN
+F 1 "GND" H 5005 3777 50  0000 C CNN
+F 2 "" H 5000 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 5B5901AA
+P 4600 3950
+F 0 "#PWR039" H 4600 3700 50  0001 C CNN
+F 1 "GND" H 4605 3777 50  0000 C CNN
+F 2 "" H 4600 3950 50  0001 C CNN
+F 3 "" H 4600 3950 50  0001 C CNN
+	1    4600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5B5901B0
+P 4200 3950
+F 0 "#PWR012" H 4200 3700 50  0001 C CNN
+F 1 "GND" H 4205 3777 50  0000 C CNN
+F 2 "" H 4200 3950 50  0001 C CNN
+F 3 "" H 4200 3950 50  0001 C CNN
+	1    4200 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 3250 1    50   Input ~ 0
+RADIO_CH_SW
+Text GLabel 4100 3550 0    50   Input ~ 0
+CH_SW
+Text Notes 3900 2850 0    50   ~ 0
+Channel Switch Line
 Wire Wire Line
-	9300 2150 9400 2150
+	5000 3350 5000 3250
 Wire Wire Line
-	9600 2150 9750 2150
-Connection ~ 9750 2150
+	4700 3550 4600 3550
+Wire Wire Line
+	4600 3550 4600 3650
+Wire Wire Line
+	4500 3550 4600 3550
+Wire Wire Line
+	4300 3550 4200 3550
+Wire Wire Line
+	4200 3550 4200 3650
+Wire Wire Line
+	5000 3750 5000 3950
+Wire Wire Line
+	4600 3850 4600 3950
+Wire Wire Line
+	4200 3850 4200 3950
+Wire Wire Line
+	4200 3550 4100 3550
+Connection ~ 4600 3550
+Connection ~ 4200 3550
+Wire Notes Line
+	5550 2650 5550 4200
+Wire Notes Line
+	3750 2650 3750 4200
+Wire Notes Line
+	3750 4200 5550 4200
+Wire Notes Line
+	3750 2650 5550 2650
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5B643BAA
+P 4850 5250
+F 0 "J5" H 4770 4625 50  0000 C CNN
+F 1 "Radio" H 4770 4716 50  0000 C CNN
+F 2 "" H 4850 5250 50  0001 C CNN
+F 3 "~" H 4850 5250 50  0001 C CNN
+	1    4850 5250
+	-1   0    0    1   
+$EndComp
+Text GLabel 5250 4850 2    50   Input ~ 0
+RADIO_CH_SW
+Wire Wire Line
+	5050 4850 5250 4850
+Text GLabel 4150 4900 2    50   Input ~ 0
+RADIO_CH_SW
+Wire Wire Line
+	3950 4900 4150 4900
+NoConn ~ 10550 4150
+NoConn ~ 10550 4250
+Text GLabel 10650 5250 2    50   Input ~ 0
+CH_SW
+Wire Wire Line
+	10550 5250 10650 5250
+$Comp
+L MMDVM_Hat-rescue:STM32F722RETx-MCU_ST_STM32F7 U2
+U 1 1 5B248128
+P 9950 4050
+F 0 "U2" H 9900 4100 50  0000 C CNN
+F 1 "STM32F722RETx" H 9900 3950 50  0000 C CNN
+F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 9350 2350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00330506.pdf" H 9950 4050 50  0001 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "STM32F722RET6" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "511-STM32F722RET6" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9950 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

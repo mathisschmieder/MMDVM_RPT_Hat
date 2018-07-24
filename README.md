@@ -1,9 +1,9 @@
-# MMDVM-F7-Hat
-MMDVM F7 Hat for the Raspberry Pi
+# MMDVM_RPT_Hat
+MMDVM_RPT_Hat for the Raspberry Pi
 
 This project provides a Raspberry Pi Hat for the [MMDVM](https://github.com/g4klx/MMDVM).
 
-![PCB](http://gitlab.df2et.de:8088/df2et/MMDVM-F7-Hat/raw/master/MMDVM_Hat.png)
+![PCB](https://gitlab.df2et.de/df2et/MMDVM_RPT_Hat/raw/master/MMDVM_RPT_Hat.png)
 
 ## Revisions
 

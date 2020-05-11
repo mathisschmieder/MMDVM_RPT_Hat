@@ -1,6 +1,6 @@
-update=Mo 11 Mai 2020 14:55:44 CEST
+update=Mon May 11 17:30:17 2020
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -39,6 +39,8 @@ ERC_CheckBusToNetConflicts=1
 [sheetnames]
 1=f48f5cb5-ca29-4b14-9f7d-fcce52880c83:
 2=00000000-0000-0000-0000-00005bcd4a8f:Filter
+[PcbFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=

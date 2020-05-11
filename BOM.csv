@@ -27,11 +27,12 @@ D4,PTT,LEDs:LED_0603,1,Kingbright,APT1608SURCK,Mouser,604-APT1608SURCK
 D1,PWR,LEDs:LED_0603,1,Kingbright,APT1608SGC,Mouser,604-APT1608SGC
 D2,SVC,LEDs:LED_0603,1,Kingbright,APT1608SURCK,Mouser,604-APT1608SURCK
 D7,YSF,LEDs:LED_0603,1,Kingbright,APT1608SECK,Mouser,604-APT1608SECK
+D11,FM,LEDs:LED_0603,1,Kingbright,APT1608VBC/D,Mouser,604-APT1608VBC/D
 TP3;TP4;TP2;TP5;TP1,TEST,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,5,,,,
 J6,STLink,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,Wurth Electronics,61300411121,Mouser,710-61300411121
 J3,Serial Display,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,Wurth Electronics,61300411121,Mouser,710-61300411121
 J5,Radio,Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm,1,Wurth Electronics,61300811121,Mouser,710-61300811121
-J4,Panel LEDs,Pin_Headers:Pin_Header_Straight_2x10_Pitch2.00mm,1,3M Electronic Solutions Division,951210-8622-AR,Mouser,517-951210-8622-AR
+J4,Panel LEDs,Connector_PinHeader_2.00mm:PinHeader_2x11_P2.00mm_Vertical,1,Samtec,MTMM-111-09-L-D-380,Mouser,200-MTMM11109LD380
 J2,Raspberry_Pi_2_3,Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm,1,Harwin,M20-7832046,Mouser,855-M20-7832046
 RV3,100k,Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical,1,Bourns,3214W-1-104E,Mouser,652-3214W-1-104E
 RV4,200k,Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical,1,Bourns,3214W-1-204E,Mouser,652-3214W-1-204E
@@ -40,7 +41,7 @@ RV1,POT,Potentiometers:Potentiometer_Trimmer_Bourns_3296Y,1,Bourns,3296Y-1-104LF
 R20;R3;R10,10k,Resistors_SMD:R_0603,3,Panasonic,ERJ-PB3B1002V,Mouser,667-ERJ-PB3B1002V
 R19;R15,1M,Resistors_SMD:R_0603,2,Panasonic,ERJ-3EKF1004V,Mouser,667-ERJ-3EKF1004V
 R21,1k,Resistors_SMD:R_0603,1,Panasonic,ERJ-3EKF1001V,Mouser,667-ERJ-3EKF1001V
-R1;R2;R4;R5;R6;R7;R8;R9;R11;R33,1k5,Resistors_SMD:R_0603,10,Panasonic,ERJ-3EKF1501V,Mouser,667-ERJ-3EKF1501V
+R1;R2;R4;R5;R6;R7;R8;R9;R11;R33;R36,1k5,Resistors_SMD:R_0603,11,Panasonic,ERJ-3EKF1501V,Mouser,667-ERJ-3EKF1501V
 R22,20k,Resistors_SMD:R_0603,1,Panasonic,ERJ-3EKF2002V,Mouser,667-ERJ-3EKF2002V
 R25;R23;R24,22k,Resistors_SMD:R_0603,3,Panasonic,ERJ-P03F2202V,Mouser,667-ERJ-P03F2202V
 R29,30k,Resistors_SMD:R_0603,1,Panasonic,ERJ-3EKF3002V,Mouser,667-ERJ-3EKF3002V

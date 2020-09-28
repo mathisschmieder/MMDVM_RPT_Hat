@@ -3,7 +3,7 @@ MMDVM_RPT_Hat for the Raspberry Pi
 
 This project provides a Raspberry Pi Hat for the [MMDVM](https://github.com/g4klx/MMDVM).
 
-![PCB](https://gitlab.df2et.de/df2et/MMDVM_RPT_Hat/raw/master/MMDVM_RPT_Hat.png)
+![PCB](https://github.com/mathisschmieder/MMDVM_RPT_Hat/blob/master/MMDVM_RPT_Hat.png)
 
 ## Revisions
 
